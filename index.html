@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banho e Tosa - Cuidados para seu Pet</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="/assets/image/icon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/image/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/image/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/image/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/image/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/image/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/image/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/image/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/image/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/image/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/assets/image/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/image/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/image/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/image/icon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/image/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/assets/image/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="title-container">
+            <div id="bath">
+                <h1>Banho</h1>
+            </div>
+            <div id="grooming">
+                <h1><span>&</span> Tosa</h1> 
+            </div> 
+        </div>
+        <div class="subtitle-container">
+            <h2>O Cuidado que o seu pet merece</h2>
+            <h6>Serviços completos e seguros para a higiene do seu melhor amigo</h6>   
+            <button id="scrollButton" class="btn-header" name="btn-header-plans" type="button" value="Consulte nossos planos">Consulte nossos planos</button>
+        </div>
+    </section>
+
+    <!-- Seção Como Funciona-->
+    <section class="how-it-works">
+        <h2>Como Funciona</h2>
+        <div class="steps">
+            <article class="step">
+                <img src="icone1.png" alt="Ícone casa">
+                <div class="steps-content">
+                    <p>Escolha o plano de banho e tosa ideal para seu pet</p>
+                </div>
+            </article>
+            <article class="step">
+                <img src="icone2.png" alt="Ícone agendamento">
+                <div class="steps-content">
+                    <p>Agende facilmente pelo nosso site</p>
+                </div>
+            </article>
+            <article class="step">
+                <img src="icone3.png" alt="Ícone pet identificação">
+                <div class="steps-content">
+                    <p>Informe os dados de identificação do seu pet e do tutor</p>
+                </div>
+            </article>
+            <article class="step">
+                <img src="icone4.png" alt="Ícone caminho">
+                <div class="steps-content">
+                    <p>Nosso time busca e entrega o pet em sua casa</p>
+                </div>
+            </article>
+            <article class="step">
+                <img src="icone5.png" alt="Ícone pet limpo">
+                <div class="steps-content">
+                    <p>Seu pet volta limpo, perfumado e cheio de amor</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Seção Nossos Planos-->
+    <section id="ourPlan" class="plans">
+        <div>
+            <h2>Nossos Planos</h2>
+            <h3>Selecione o plano que melhor se adapte ao serviço que deseja</h2>
+        </div>
+        <div id="allPlans">
+            <component-price-card 
+                data-title="Basic"
+                data-image="" 
+                data-image-alt=""
+                data-price='A partir <br><span class="card__plan--price">R$ 60,00</span><sub>/mês</sub>'
+                data-description="1 banho mensal"
+                data-cta-href="#"
+                data-cta-text="Contratar"
+                >
+            </component-price-card>
+            <component-price-card 
+                data-title="Premium"
+                class="card__plan--destaque"
+                data-image="" 
+                data-image-alt=""
+                data-price='A partir <br><span class="card__plan--price">R$ 140,00</span><sub>/mês</sub>'
+                data-description="4 banhos mensais"
+                data-cta-href="#"
+                data-cta-text="Contratar"
+                >
+            </component-price-card>
+            <component-price-card 
+                data-title="Pro"
+                data-image="" 
+                data-image-alt=""
+                data-price='A partir <br><span class="card__plan--price">R$ 170,00</span><sub>/mês</sub>'
+                data-description="6 banhos mensais"
+                data-cta-href="#"
+                data-cta-text="Contratar"
+                >
+            </component-price-card>
+        </div>
+    </section>
+
+    <!-- Seção Nossas Avaliações com o Carousel-->
+    <section class="reviews">
+        <h2>Nossas Avaliações</h2>
+        <div class="carousel-container" style="position: relative; z-index: 1;">
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/max.png" alt="Foto do Max">
+                    </div>
+                    <div>
+                        <strong>Max</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Meu cachorro ficou lindo e a equipe foi super carinhosa. Nós super recomendamos o serviço!</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/tom.png" alt="Foto do Tom">
+                    </div>
+                    <div>
+                        <strong>Tom</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Super recomendo. O pet foi muito bem cuidado e nós, também. Cinco estrelas!</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/luna.png" alt="Foto da Luna">
+                    </div>
+                    <div>
+                        <strong>Luna</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Fantástico! Estou muito satisfeito com o resultado! Fomos muito bem atendidos.</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/icaro.png" alt="Foto do Icaro">
+                    </div>
+                    <div>
+                        <strong>Icaro</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Excelente atendimento e resultado impecável! Meu gato ficou tão relaxado.</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/tor.png" alt="Foto do Tor">
+                    </div>
+                    <div>
+                        <strong>Tor</strong> 
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;<span>&#9733;</span></div>
+                    </div>
+                </div>
+                <p>Atendimento impecável e muito estiloso. Pena não aceitarem fiado.</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/peny.png" alt="Foto do Icaro">
+                    </div>
+                    <div>
+                        <strong>Peny</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Meu cachorro saiu lindo e cheirando maravilhoso! A equipe é super atenciosa e cuidadosa. Recomendo!</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/John.png" alt="Foto do Icaro">
+                    </div>
+                    <div>
+                        <strong>John</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>A equipe é super profissional e atenciosa.</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/ane.png" alt="Foto do Icaro">
+                    </div>
+                    <div>
+                        <strong>Ane</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Meu gato nunca esteve tão bonito!</p>
+            </div>
+            <div class="carousel-item">
+                <div class="user-info">
+                    <div>
+                        <img class="user-photo" src="assets/image/dom.png" alt="Foto do Icaro">
+                    </div>
+                    <div>
+                        <strong>Dom</strong>
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    </div>
+                </div>
+                <p>Bom serviço, meu cachorro saiu bem cuidado.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção Nossa Jornada -->
+    <section class="about">
+        <h2>Nossa Jornada</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="img-ideia">
+                    <img src="./assets/image/cachorro_dormindo.webp" alt="cachorro dormindo">
+                </div>
+                <div>
+                    <h2>A ideia</h2>
+                    <p>
+                        A ideia de oferecer banho e tosa em um ambiente profissional surgiu da demanda por cuidados mais estruturados 
+                        e de qualidade.
+                    </p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="img-ideia">
+                    <img src="./assets/image/cachorro_tomando_banho.avif" alt="cachorro tomando banho">
+                </div>
+                <div>
+                    <h2>O começo</h2>
+                    <p>
+                        No início, o cuidado coom os pets eram simples e artesanais, realizados por profissionais apaixonados pelos animais.
+                    </p>
+                </div>
+            </article>
+            <article class="card">
+                <div class="img-ideia">
+                    <img src="./assets/image/gato_na_cama_azul.webp" alt="gato na cama">
+                </div>
+                <div>
+                    <h2>A retomada</h2>
+                    <p>
+                        O serviço de banho e tosa combina carinho, cuidado e profissionalismo. Com a praticidade tecnológica atual, o agendamento é mais acessível aos tutores.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Seção Nossa Localização -->
+    <section class="location" id="nossa-localizacao">
+        <h2>Nossa Localização</h2>
+        <div class="location-content">
+            <div class="map">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.7096084272357!2d-48.814029488629984!3d-26.303512367930825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb19c9ab252f1%3A0x37045caed014cbdd!2sR.%20S%C3%A3o%20Leopoldo%2C%20970%20-%20Boa%20Vista%2C%20Joinville%20-%20SC%2C%2089206-410!5e0!3m2!1spt-BR!2sbr!4v1729376355252!5m2!1spt-BR!2sbr"
+                allowfullscreen=""
+                style="border:0;"  
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+            <div class="contact-info">
+                <h3>Endereço</h3>
+                <address>
+                    <p>Rua São Leopoldo, 970 - Boa Vista.</p>
+                    <p>CEP:89206-410</p>
+                    <p>Joinville - SC</p>
+                </address>
+                <div class="phone-info">
+                    <img src="assets/image/logos_whatsapp-icon.svg" alt="Ícone de Telefone" class="phone-icon">
+                    <a href="tel:+5547999999999">(47) 9.9999-9999</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright&copy 2024 PetCare Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="carousel.js"></script>
+    <script src="button.js"></script>
+    <script src="index.js"></script>
+    <script src="components/priceCard.js"></script>
+</body>
+</html>
