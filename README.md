@@ -1,29 +1,11 @@
-# README #
+Projeto Web/UX - 
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Bruno Lima Costa; - Hero / Nossa Jornada;
+Caio Zafalon; Nossas Avaliações e Nossa Localização;
+Jairo Storckmann Jr; Como funciona / Nossos Planos - organização das branchs e responsável pelo pull requests;
+Maria Clara - Hero / Nossa Jornada.
 
-### What is this repository for? ###
+Trabalho realizado em vanilla.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+link para o site: https://agendamento-petshop.netlify.app/
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
